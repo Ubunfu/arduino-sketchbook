@@ -130,25 +130,3 @@ int decreaseColorLevel(int level, int step){
     return decreasedLevel;
   }
 }
-
-String decodeManufacturer(decode_results results){
-  switch (results.decode_type){
-      case NEC: return "NEC"; break ;
-      case SONY: return "SONY"; break ;
-      case RC5: return "RC5"; break ;
-      case RC6: return "RC6"; break ;
-      case DISH: return "DISH"; break ;
-      case SHARP: return "SHARP"; break ;
-      case JVC: return "JVC"; break ;
-      case SANYO: return "SANYO"; break ;
-      case MITSUBISHI: return "MITSUBISHI"; break ;
-      case SAMSUNG: return "SAMSUNG"; break ;
-      case LG: return "LG"; break ;
-      case WHYNTER: return "WHYNTER"; break ;
-      case AIWA_RC_T501: return "AIWA_RC_T501"; break ;
-      case PANASONIC: return "PANASONIC"; break ;
-      case DENON: return "DENON"; break ;
-    default:
-      case UNKNOWN: return "UNKNOWN"; break ;
-    }
-}
